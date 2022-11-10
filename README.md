@@ -23,7 +23,7 @@ COMMANDS:
 GLOBAL OPTIONS:
    --help, -h  show help (default: false)
 
-$ cat sample.txt | sbox seal -k <32 bit key> >> sealedfile
+$ cat sample.txt | sbox seal -k <32 byte key> >> sealedfile
 ```
 
 It can be used with [keygen](https://github.com/jcbritobr/keygen) to generate keys.
